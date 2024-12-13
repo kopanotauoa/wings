@@ -1,0 +1,93 @@
+/* App.css */
+body {
+  background: url('food.jpg') no-repeat center center fixed;
+  background-size: 100%;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.lo {
+  display: inline-block; /* Ensures padding and borders are consistent */
+  text-align: center;
+  margin: 10px; /* Space between links */
+  padding: 12px 24px; 
+  border: 2px solid #007bff; 
+  border-radius: 8px; 
+  background-color: #f8f9fa; 
+  color: #007bff; 
+  font-size: 16px; 
+  font-weight: bold; 
+  text-decoration: none; 
+  transition: all 0.3s ease; 
+
+}
+.wings{
+  text-align: center;
+  
+}
+.manage{
+  display: inline-block; /* Ensures padding and borders are consistent */
+  text-align: center;
+  margin: 10px; /* Space between links */
+  padding: 12px 24px; 
+  border: 2px solid #007bff; 
+  border-radius: 8px; 
+  background-color: #f8f9fa; 
+  color: #007bff; 
+  font-size: 16px; 
+  font-weight: bold; 
+  text-decoration: none; 
+  transition: all 0.3s ease; 
+
+}
+
+.lo:hover {
+  background-color: #007bff; /* Blue background on hover */
+  color: white; /* White text on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
+}
+
+.container-center {
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-direction: row; /* Stack elements vertically */
+  gap: 20px; /* Space between links */
+}
+.logout-button{
+  
+  display: inline-block; /* Ensures padding and borders are consistent */
+  text-align: center;
+  margin: 10px; /* Space between links */
+  padding: 12px 24px; 
+  border: 2px solid #007bff; 
+  border-radius: 8px; 
+  background-color: #f80a0a; 
+  color: #007bff; 
+  font-size: 16px; 
+  font-weight: bold; 
+  text-decoration: none; 
+  transition: all 0.3s ease; 
+
+}
+.app-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #fa0303;
+  margin-bottom: 60px;
+}
+
+.logo-container {
+  margin-right: auto;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+
+
+

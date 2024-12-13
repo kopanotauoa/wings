@@ -1,0 +1,15 @@
+.rotating-menu {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.rotating-menu img {
+    height: 40%;
+    border-radius: 8px;
+}
+
+.rotating-menu h2 {
+    margin-top: 10px;
+    color: #444;
+}

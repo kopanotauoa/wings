@@ -1,0 +1,29 @@
+.recharts-container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .recharts-container h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .recharts-container p {
+    font-size: 16px;
+    color: #888;
+  }
+  
+  .recharts-container .recharts-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

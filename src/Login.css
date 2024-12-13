@@ -1,0 +1,45 @@
+.container {
+  max-width: 400px; /* Limit the width of the form */
+  margin: auto; /* Center the form */
+  padding: 20px; /* Add some padding */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: #fff; /* White background */
+}
+
+h2 {
+  text-align: center; /* Center the title */
+  margin-bottom: 20px; /* Space below title */
+}
+
+.mdb-tabs-link {
+  font-weight: bold; /* Bold text for tabs */
+}
+
+.mdb-checkbox label {
+  margin-bottom: 0; /* Remove bottom margin on checkbox label */
+}
+
+.text-center p {
+  margin-top: 10px; /* Space above paragraph */
+}
+
+a {
+  color: #007bff; /* Blue color for links */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+
+
+button {
+  background-color: #007bff; /* Primary button color */
+  border: none; /* Remove border */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

@@ -1,0 +1,77 @@
+/* StockManagement.css */
+
+.stock-management-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.stock-management-title {
+    text-align: center;
+    color: #333;
+}
+
+.current-stock-title,
+.form-title,
+.sell-product-title {
+    margin-top: 20px;
+    color: #555;
+}
+
+.stock-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.stock-table th,
+.stock-table td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+}
+
+.stock-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.edit-button,
+.submit-button,
+.sell-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.edit-button:hover,
+.submit-button:hover,
+.sell-button:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+.product-input,
+.sale-input,
+.product-select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.product-input,
+.sale-input {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.product-select {
+    border-radius: 4px;
+}
+
+.product-input::placeholder,
+.sale-input::placeholder {
+    color: #aaa; /* Placeholder color */
+}
